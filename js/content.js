@@ -82,7 +82,7 @@ window.SITE_CONTENT = {
     },
     {
       category: "Backend & APIs",
-      skills: ["Spring Boot", "REST / GraphQL", "Apache Sling", "JCR / Oak"]
+      skills: ["Spring Boot", "REST / GraphQL", "Apache Sling", "JCR / Oak", "AEM APIs", "Servlet"]
     },
     {
       category: "Cloud & DevOps",
@@ -147,28 +147,28 @@ window.SITE_CONTENT = {
       summary: "Developed a custom AEM utility with a Sling Servlet and Granite UI console, automating bulk page updates from Excel uploads and reducing manual effort for content teams.",
       stack: ["Sling Servlet", "Granite UI", "HTL", "ClientLibs", "JavaScript", "JCR APIs"],
       featured: false,
-      links: { github: "https://github.com/your-username/aem-osgi-toolkit", demo: "" }
+      links: { github: "#", demo: "" }
     },
     {
-      title: "CI/CD Pipeline for AEM Cloud Manager",
-      summary: "Automated build, test and deployment pipeline templates that cut manual release steps and standardized environments.",
-      stack: ["Cloud Manager", "Jenkins", "Maven", "Git"],
-      featured: false,
-      links: { github: "https://github.com/your-username/aem-cicd-pipeline", demo: "" }
+      title: "Weather Integration Component – AEM as a Cloud Service",
+      summary: "Developed an AEMaaCS weather component integrating an external REST API using OSGi services and Sling Models. Implemented thread-safe caching with configurable TTL, JSON parsing, error handling, stale-cache fallback, and JUnit 5/Mockito unit testing for improved performance and resilience.",
+      stack: ["AEMaaCS", "OSGi Services", "Java HttpClient/REST API Integration", "Application caching"],
+      featured: true,
+      links: { github: "#", demo: "" }
     },
     {
-      title: "Personal Finance Tracker",
-      summary: "A side project: a Spring Boot + React app for tracking expenses, with JWT auth and exportable monthly reports.",
-      stack: ["Spring Boot", "React", "PostgreSQL", "JWT"],
+      title: "SDL Translation Connector Upgrade – AEMaaCS",
+      summary: "Upgraded the SDL Translation Connector from v1.2.9 to v1.9.18 in AEM as a Cloud Service, resolving deprecated API dependencies, validating OSGi configurations, and ensuring seamless multilingual translation workflows across MSM-based sites.",
+      stack: ["SDL Translation connector", "OSGi", "MSM", "Workflow"],
       featured: false,
-      links: { github: "https://github.com/your-username/finance-tracker", demo: "" }
+      links: { github: "#", demo: "" }
     },
     {
-      title: "AEM Performance Audit Toolkit",
-      summary: "A CLI tool that crawls an AEM site, flags render-blocking client libs and generates a dispatcher-caching report.",
-      stack: ["Node.js", "AEM", "Dispatcher"],
+      title: "AEM MSM Website Migration",
+      summary: "Supported the migration of 500+ pages across multiple regional websites to an MSM-based AEM architecture by developing reusable editable templates and components aligned with the new design system and supporting phased migration and rollout.",
+      stack: ["Templates", "Policy", "JCR", "CRXde"],
       featured: false,
-      links: { github: "https://github.com/your-username/aem-perf-audit", demo: "" }
+      links: { github: "#", demo: "" }
     }
   ],
 
